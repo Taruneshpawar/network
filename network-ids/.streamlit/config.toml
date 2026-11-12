@@ -1,0 +1,10 @@
+[theme]
+base = "dark"
+primaryColor = "#2F81F7"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#161B22"
+textColor = "#E6EDF3"
+
+[server]
+maxUploadSize = 200
+enableXsrfProtection = true

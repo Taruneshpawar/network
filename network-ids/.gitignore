@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Data files (not committed)
+data/raw/*.csv
+data/sample/*.csv
+data/uploads/
+
+# Model artifacts (not committed)
+models/*.joblib
+models/metadata.json
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Reports (generated)
+reports/*.json
+reports/*.png
+reports/*.html
+reports/*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Streamlit
+.streamlit/secrets.toml
